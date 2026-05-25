@@ -7,6 +7,8 @@
     <title>Laravel Blog</title>
     <!-- Bootstrap por CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--- Aquí esta Vite --->
+     @vite(['resources/scss/app.scss', 'resources/js/app.js'])
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
@@ -21,7 +23,7 @@
     <main class="container">
         @yield('content')
     </main>
-
+        <!--- Bootstrap JS por CDN ---->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
