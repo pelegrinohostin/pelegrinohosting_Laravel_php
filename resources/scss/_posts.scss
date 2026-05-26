@@ -1,0 +1,43 @@
+// _posts.scss
+.post-card  {
+    border-radius: 20px;
+    background: $background;
+    box-shadow: 10px 10px 30px $shadow-light,
+                -10px -10px 30px $shadow-dark;
+    padding: 1.5rem;            
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease;
+
+    h5  {
+        font-weight: bold;
+        margin-bottom: 0.75rem;
+    }
+
+    p  {
+        color: #333;
+        font-size: 0.95rem;
+    }
+    &:hover  {
+        box-shadow: inset 10px 10px 30px $shadow-dark,
+                    inset -10px -10px 30px $shadow-light;
+    }
+}
+   
+// Agregamos esto:
+    .row.align-items-center {
+  margin-bottom: 2rem; // espacio debajo del bloque
+}
+
+.post-card {
+  margin: 0 auto; // centra cada card en su columna
+}
+
+.main {
+  margin: 0 auto; // asegura que la animación quede centrada
+  max-width: 200px; // opcional, limita el ancho de la animación
+}
+h1.mb-4 {
+  text-align: center;
+}
+
+

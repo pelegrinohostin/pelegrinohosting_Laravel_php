@@ -1,0 +1,21 @@
+// _buttons.scss
+
+// _buttons.scss
+.btn-neumo {
+  border-radius: 50px;
+  background: $background;
+  box-shadow: 5px 5px 15px $shadow-dark,
+              -5px -5px 15px $shadow-light;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+
+  &:hover {
+    box-shadow: inset 5px 5px 15px $shadow-dark,
+                inset -5px -5px 15px $shadow-light;
+  }
+}
+/// Animación tal cual se muestra en el Tutorial 
+ 
+
